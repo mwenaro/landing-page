@@ -142,6 +142,7 @@ section h2{
     text-align: center;
 }
 
+/* About us */
 .about-us .container{
  display: flex;
  flex-direction: row;
@@ -157,3 +158,63 @@ section h2{
     border-radius: 0.8rem;
     margin-inline: .4rem;
 }
+
+/* Contact us */
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact-us .container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
+
+
+.contact-us .contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.contact-us .contact-form form{
+    display: flex;
+    flex-direction: column;
+gap:1rem;
+    align-items: center;
+    justify-content: center;
+   max-width: 500px;
+   width: 70%;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button{
+width: 100%;
+padding: 1rem 2rem;
+border-radius: 1rem;
+}
+.contact-form button{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-block: 1rem;
+}
+
+.contact-us .social-handles{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+   
+}
+
+.social-handles li{
+margin-block: 1rem;
+}
+
+.social-handles i{
+    font-size: 3rem;
+}
+
