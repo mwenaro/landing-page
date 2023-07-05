@@ -108,8 +108,11 @@ main{
     display: flex;
     flex-direction: column;
 }
+
 section{
-    margin-top: 20px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
 }
 
 
@@ -137,4 +140,20 @@ section h2{
     font-weight: 900;
     padding: 0.4rem 0.8rem;
     text-align: center;
+}
+
+.about-us .container{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+
+}
+
+
+.about-card{
+    padding: 0.4rem 0.8rem;
+    background-color: aliceblue;
+    border-radius: 0.8rem;
+    margin-inline: .4rem;
 }
