@@ -44,6 +44,7 @@ header,
 footer {
   background-color: var(--primary-color);
   color: white;
+  width: 100%;
 }
 
 
@@ -56,8 +57,10 @@ header nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap:3rem;
   justify-content: space-between;
   font-size: 1.5rem;
+  
 }
 
 nav ul {
@@ -83,6 +86,10 @@ nav ul a:hover{
 }
 
 
+nav .search-box{
+    display: flex;
+
+}
 nav .search-box input{
     padding: 0.4rem 0.8rem;
 }
@@ -93,6 +100,41 @@ nav .search-box button{
 }
 
 header h1{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     padding: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    margin-top: 20px;
+}
+
+
+
+.hero{
+    width: 100%;
+    height: 50vh;
+}
+.hero img{
+width: 100%;
+height:auto;
+
+
+}
+
+.hero div{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section h2{
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-weight: 900;
+    padding: 0.4rem 0.8rem;
+    text-align: center;
 }
