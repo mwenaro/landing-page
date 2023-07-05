@@ -29,6 +29,7 @@ a {
   border-top-right-radius: 2rem;
   overflow: hidden;
   max-width: 1000px;
+
   width: calc(100vw - 10rem);
   margin-inline: auto;
   background-color: lightgrey;
@@ -73,6 +74,7 @@ nav ul a{
     padding: .4rem .8rem;
     background-color: rgb(20, 11, 116);
     border-radius: 0.2rem;
+    min-width: fit-content;
 }
 nav ul a:hover{
     
@@ -92,4 +94,5 @@ nav .search-box button{
 
 header h1{
     font-size: 2.4rem;
+    padding: 1rem;
 }
