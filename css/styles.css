@@ -1,0 +1,52 @@
+:root{
+    --primary-color:#00f;
+    --secondary-color:#0f0;
+    
+    
+}
+
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    max-width: 1000px;
+    width: calc(100vw - 10rem);
+    margin-inline:auto;
+    background-color:lightgrey;
+    
+}
+
+header, footer, main{
+    padding:8px 16px;
+}
+header,footer{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+header > nav > ul, header > nav > div{
+    
+}
+
+
